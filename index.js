@@ -3,7 +3,7 @@ const port = 80
 
 const requestHandler = (request, response) => {
     console.log(Date(), ' Requesting ', request.url)
-    response.end('I work in Kontur!!')
+    response.end('I work in Kontur:)')
 }
 
 const server = http.createServer(requestHandler)
